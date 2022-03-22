@@ -42,7 +42,7 @@ public class Q09 {
 
         driver.findElement(By.xpath("//a[@class='btn btn-primary js-checkout-controls']")).click();
 
-        System.out.println("Teknosa : " + driver.findElement(By.xpath("(//div[@class='lrl-title'])[1]")).getText());
+        System.out.println("Teknosa Text: " + driver.findElement(By.xpath("(//div[@class='lrl-title'])[1]")).getText());
 
         driver.close();
 
