@@ -49,9 +49,7 @@ public class Q04 {
             String text = dropList.get(i).getText();
             System.out.println("text = " + text);
 
-             if (!text.isEmpty()){
-                dropList.get(i).click();
-            }
+        
         
         //  Task 5      check until choise 6'
         if (text.equals("choise 6")){
