@@ -27,8 +27,4 @@ public class Q02 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
- @Test
-    public void test(){
-        driver.findElement(By.xpath("(//*[@class='logo'])[1]")).isDisplayed();
-    }
 }

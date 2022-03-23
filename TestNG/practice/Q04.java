@@ -20,7 +20,7 @@ public class Q04 {
     Task 2      Find Dropdown all Elements on page
     Task 3      Printout DropDown Elements' number
     Task 4      choose all dropdown elements and printout dropdown elements' name
-    Task 5      check until choise 6'
+    Task 5      check until choise 6' on Multi Selection
      */
 
     WebDriver driver;
@@ -49,13 +49,12 @@ public class Q04 {
             String text = dropList.get(i).getText();
             System.out.println("text = " + text);
 
-           if (!text.isEmpty()){
+            if(!text.isEmpty()){
                 dropList.get(i).click();
             }
-
         
-        //  Task 5      check until choise 6'
-        if (text.equals("choise 6")){
+         //  Task 5      check until choise 6'
+          if (text.equals("choice 6")){
             dropList.get(i).click();
             break;
         }
