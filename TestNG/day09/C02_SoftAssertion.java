@@ -72,7 +72,7 @@ public class C02_SoftAssertion {
         String expectedListeStringOlarak="\"Select One\", \"Australia (dollar)\", \"Canada (dollar)\", \"Switzerland (franc)\", \"China (yuan)\", \"Denmark (krone)\", \"Eurozone (euro)\", \"Great Britain (pound)\", \"Hong Kong (dollar)\", \"Japan (yen)\", \"Mexico (peso)\", \"Norway (krone)\", \"New Zealand (dollar)\", \"Sweden (krona)\", \"Singapore (dollar)\", \"Thailand (baht)\"";
         softAssert.assertEquals(actualOptionListesiStringOlarak,expectedListeStringOlarak);
         softAssert.assertAll();
-        System.out.println("testlerden failed olan varsa softAssert.assertAll'dan sonrasi calismaz");
+        System.out.println("testlerden failed olan varsa softAssert.assertAll'dan sonrasi calismazzz");
     }
 
     @AfterMethod
