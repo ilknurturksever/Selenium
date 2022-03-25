@@ -15,7 +15,7 @@ import java.time.Duration;
 
 
     public class C01_Allerts {
-        // ● Bir class olusturun: Alerts
+        // ● Bir class olusturunn: Alerts
         //● https://the-internet.herokuapp.com/javascript_alerts adresine gidin.
         WebDriver driver;
         WebElement sonucYazisiElementi;
