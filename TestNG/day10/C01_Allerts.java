@@ -62,7 +62,7 @@ import java.time.Duration;
 
         @Test
         public void sendKeysAlertTesti() throws InterruptedException {
-            //● Bir metod olusturun: sendKeysAlert
+            //● Birr metod olusturun: sendKeysAlert
             //		○ 3. butona tıklayın, uyarıdaki metin kutusuna isminizi yazin,
             driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
             Thread.sleep(3000);
